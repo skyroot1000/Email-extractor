@@ -1,5 +1,4 @@
 
-# Working: 19-01-2019
 - Exclude images - Add search option with images - SATUS (OK)
 - Multi-thread to reduce search times - STATUS (PENDING)
 - Search of several texts - STATUS (PENDING)
@@ -17,21 +16,7 @@
 
 - The emails are stored in a Sqlite database ("Emails.db")
 
-## Español
-- (1) Extraer los correos de una única URL
-- (2) Extraer los correos de una Url (Dos Niveles) - Busca sobre la página y todas sus URL
-- (3) Hacer una busqueda en Google, guardar las Urls encontradas y buscar los correos en dichas Urls
-- (4) Los correos son guardados en una base de datos Sqlite
-- (5) Se pueden listar los correos guardados
-- (6) Se pueden guardar los correo en un archivo .txt
-
-- Todos los correos son guardados en una base de datos Sqlite ("Emails.db")
-
-**Versión:** Python 3.x.
-
 # Required modules - Modulos necesarios
-
-**Update 26/07/18**
 
 if you use windows try pip update and then:
 - pip3 install google
